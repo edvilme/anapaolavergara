@@ -44,7 +44,7 @@ h1#name {
     position: absolute;
     font-size: 2rem;
     animation: float 10s linear infinite;
-    color: rgba(0, 0, 0, 0.125);
+    color: #ff5a72;
     top: 100vh;
     left: calc(100% * var(--random-x));
     animation-delay: calc(10s * var(--random-delay));
