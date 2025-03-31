@@ -5,6 +5,43 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #333;
+    position: relative;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: #f9f9f9;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: block;
+    text-align: center;
+    padding: 16px 8px;
+    box-sizing: border-box;
+}
+
+nav ul li.active{
+    border-bottom: 4px solid #ff5a72;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav ul li:first-child {
+    font-weight: bolder;
 }
 
 section, #contact {
@@ -18,7 +55,7 @@ section, #contact {
 h1#name {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 900;
-    font-size: 5rem;
+    font-size: 7rem;
     text-align: center;
 }
 
